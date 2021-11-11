@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url('/images/bg-desktop.svg') no-repeat center center/cover   hsl(257, 40%, 49%);
+  color: white;
+  padding: 4rem;
+  font-family: 'Poppins', sans-serif;;
+}
+.l-heading{
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+.btn{
+  padding: 1rem;
+  border: none;
+  background: white;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
+  width: 10rem;
+  font-size: 1.1rem;
+  box-shadow: black;
+}
+.btn:hover{
+  cursor: pointer;
+  background: hsl(300, 69%, 71%);
+  color: white;
+  
+}
+#nav-logo{
+  display: block;  
+  background: url('/images/logo.svg') no-repeat ;
+  padding: 3REM;
+}
+#content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 6rem 0;
+
+}
+#content-img{
+  width: 700px;
+  height: 500px;
+  background: url('/images/illustration-mockups.svg') no-repeat center center/cover;
+}
+#content-txt{
+  text-align: left;
+  line-height: 1.5;
+  position: relative;
+  top: 65px;
+  justify-self: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#content-txt p{
+  padding-bottom: 1.4rem;
+}
+#icons{
+  display: block;
+  grid-column: 1 / span 2;
+  text-align: right;
+  padding: 1rem;
+  margin-top: 7rem;
+}
+#icons i{
+  padding: 0.5rem;
+}
+#icons i:hover{
+  color: hsl(300, 69%, 71%);
+}
